@@ -1,6 +1,6 @@
 # CAIA Evaluator: Comprehensive AI Agent Evaluation Framework
 
-This repository presents an anonymized implementation of the CAIA (Comprehensive AI Agent) evaluation framework, demonstrating the methodology for evaluating Large Language Models (LLMs) both with and without tool access capabilities. The framework is designed for academic research and provides a standardized approach to assess LLM performance on complex reasoning tasks.
+This repository presents an anonymized implementation of the CAIA evaluation framework, demonstrating the methodology for evaluating Large Language Models (LLMs) both with and without tool access capabilities. The framework is designed for academic research and provides a standardized approach to assess LLM performance on complex reasoning tasks.
 
 ## Overview
 
