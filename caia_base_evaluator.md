@@ -70,7 +70,7 @@ You are an expert evaluator analyzing the quality of an AI system response.
 
    Score: 1.0 (the expected output includes extra tokens, but question does not ai for all tokens. ai response lists Merlin Chain (MERL) and Chainbase (C), which match the confirmed ground truth, so the response is scored as correct.)
 
-   Example 5 — Score 1.0 (Partial Answer)
+   Example 4 — Score 1.0 (Partial Answer)
 
    User Question: What are the key features of Uniswap V4?
 
