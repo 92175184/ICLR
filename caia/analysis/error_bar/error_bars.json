@@ -1,0 +1,376 @@
+[
+  {
+    "model": "claude_4",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.5674157303370787,
+    "ci_95": [
+      0.4943820224719101,
+      0.6404494382022472
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "claude_4",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.11797752808988764,
+    "ci_95": [
+      0.07303370786516854,
+      0.16853932584269662
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "claude_opus_4",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.5730337078651685,
+    "ci_95": [
+      0.5,
+      0.6460674157303371
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "claude_opus_4",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.1348314606741573,
+    "ci_95": [
+      0.08426966292134831,
+      0.18553370786516843
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "claude_opus_4_1",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.5632183908045977,
+    "ci_95": [
+      0.4885057471264368,
+      0.632183908045977
+    ],
+    "num_items": 174,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "claude_opus_4_1",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.1348314606741573,
+    "ci_95": [
+      0.08426966292134831,
+      0.1853932584269663
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "deepseek_r1",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.17415730337078653,
+    "ci_95": [
+      0.11797752808988764,
+      0.2303370786516854
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "deepseek_r1",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.20786516853932585,
+    "ci_95": [
+      0.15154494382022474,
+      0.2696629213483146
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "deepseek_v3p1",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.4915254237288136,
+    "ci_95": [
+      0.423728813559322,
+      0.5706214689265536
+    ],
+    "num_items": 177,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "deepseek_v3p1",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.15730337078651685,
+    "ci_95": [
+      0.10674157303370786,
+      0.20786516853932585
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gemini_2.5_flash",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.3707865168539326,
+    "ci_95": [
+      0.30337078651685395,
+      0.43820224719101125
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gemini_2.5_flash",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.1853932584269663,
+    "ci_95": [
+      0.12921348314606743,
+      0.2417134831460673
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gemini_2.5_pro",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.449438202247191,
+    "ci_95": [
+      0.37640449438202245,
+      0.5280898876404494
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gemini_2.5_pro",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.2247191011235955,
+    "ci_95": [
+      0.16292134831460675,
+      0.29213483146067415
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_4.1",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.46629213483146065,
+    "ci_95": [
+      0.398876404494382,
+      0.5393258426966292
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_4.1",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.19662921348314608,
+    "ci_95": [
+      0.14030898876404496,
+      0.25842696629213485
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_4o",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.30337078651685395,
+    "ci_95": [
+      0.23595505617977527,
+      0.3707865168539326
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_4o",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.16853932584269662,
+    "ci_95": [
+      0.11235955056179775,
+      0.2247191011235955
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_5",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.6741573033707865,
+    "ci_95": [
+      0.601123595505618,
+      0.7359550561797753
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_5",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.2752808988764045,
+    "ci_95": [
+      0.21348314606741572,
+      0.34269662921348315
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_o3",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.5337078651685393,
+    "ci_95": [
+      0.4606741573033708,
+      0.6067415730337079
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_o3",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.20786516853932585,
+    "ci_95": [
+      0.15168539325842698,
+      0.2640449438202247
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_oss_120b",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.6292134831460674,
+    "ci_95": [
+      0.5617977528089888,
+      0.702247191011236
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "gpt_oss_120b",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.14606741573033707,
+    "ci_95": [
+      0.09550561797752809,
+      0.20224719101123595
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "grok_4",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.449438202247191,
+    "ci_95": [
+      0.37640449438202245,
+      0.5224719101123596
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "grok_4",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.20224719101123595,
+    "ci_95": [
+      0.1404494382022472,
+      0.25842696629213485
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "grok_4_fast",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.6123595505617978,
+    "ci_95": [
+      0.5393258426966292,
+      0.6797752808988764
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "grok_4_fast",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.19101123595505617,
+    "ci_95": [
+      0.1348314606741573,
+      0.24719101123595505
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "kimi_k2",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.47191011235955055,
+    "ci_95": [
+      0.40435393258426966,
+      0.5393258426966292
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "kimi_k2",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.1853932584269663,
+    "ci_95": [
+      0.12921348314606743,
+      0.24157303370786518
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "llama_4",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.24157303370786518,
+    "ci_95": [
+      0.1853932584269663,
+      0.3089887640449438
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "llama_4",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.17415730337078653,
+    "ci_95": [
+      0.11797752808988764,
+      0.2303370786516854
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "qwen_3_235b",
+    "mode": "tool_enabled",
+    "mean_accuracy": 0.3672316384180791,
+    "ci_95": [
+      0.2937853107344633,
+      0.4406779661016949
+    ],
+    "num_items": 177,
+    "num_bootstrap_samples": 1000
+  },
+  {
+    "model": "qwen_3_235b",
+    "mode": "not_tool_enabled",
+    "mean_accuracy": 0.16292134831460675,
+    "ci_95": [
+      0.11235955056179775,
+      0.21910112359550563
+    ],
+    "num_items": 178,
+    "num_bootstrap_samples": 1000
+  }
+]
